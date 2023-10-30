@@ -1,0 +1,96 @@
+.pai{
+	width: 100%;
+	display: flex;
+	flex-direction: row;  
+	flex-wrap: wrap;
+
+}
+@media(max-width:760px){
+	 #if{
+	 	width: 100%
+	 	justify-content:center;
+	 }
+	 #portal{
+	 	display: none;
+	 }
+	 #fecigran{
+	 	display: none;
+	 }
+	 #eleições{
+	 	width: 100%
+	 }
+	 #portais{
+	 	width: 100%
+	 }
+	 #verde{
+	 	width: 100%
+	 }
+	
+	}
+#if{
+	width: 15%;
+	height: 20vh;
+	background-color:green;
+	display: flex;
+
+}
+#logo{
+	padding: 35px
+}
+#portal{
+	width: 85%;
+	height: 20vh;
+	background-color:green;
+	display: flex;
+	justify-content: flex-end;
+
+}
+#buscar{
+	background-color: white;
+	height: 40px;
+	width: 300px;
+	margin: 20px
+}
+#fecigran{
+	width: 100%;
+	height: 15vh;
+	background-color:#C0C0C0;
+	display: flex;
+}
+#feci{
+	padding-left: 800px;
+	margin: 20px
+}
+#eleições{
+	width: 70%;
+	height: 60vh;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+#elei{
+	padding: 20px;
+	margin: 10px;
+}
+#portais{
+	width: 30%;
+	height: 60vh;
+	background-color:white;
+	display: flex;
+	flex-direction: column;
+}
+.p{
+	padding: 3px;
+}
+#verde{
+	width: 100%;
+	height: 20vh;
+	background-color: green;
+	display: flex;
+	margin-top: 400px;
+}
+h3{
+	color: blue;
+	margin-left: 30px;
+	font-size: 50px;
+}
